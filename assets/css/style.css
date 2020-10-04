@@ -1,0 +1,396 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a{
+    color: #6E0AD6;
+    text-decoration: none;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    max-width: 1230px;
+    margin: auto;
+    align-items: center;
+    padding-top: 5px;
+    margin-top: -5px;
+    font-weight: 600;
+}
+
+.container-home{
+    max-width: 1165px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    margin-top:5px;
+}
+
+.buscar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 115px;
+}
+
+.buscar a{
+    margin-top: 5px;
+    color: #4A4A4A;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.buscar a:hover{
+    color: #6E0AD6;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu ul li{
+    margin-right: 34px;
+}
+
+.menu ul li a{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(74, 74, 74);;
+}
+
+.menu ul li a:hover{
+    color: #6E0AD6;
+}
+
+.menu a.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 122px;
+    color: white;
+    height: 40px;
+    background-color: #f78323;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 60px;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+#header-home{
+    height: 245px;
+    background-color: #6E0AD6;
+}
+
+.search{
+    height: 125px;
+    display: flex;
+    align-items: center;
+}
+
+.search form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.search input{
+    height: 60px;
+    width: 94.5%;
+    border: .5px solid #D2D2D2;
+    outline: none;
+    padding: 25px;
+    font-size: 20px;
+    color: rgb(74, 74, 74);
+    font-weight: 400;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search input::placeholder{
+    color: rgb(155, 155, 155);
+    font-size: 20px;
+}
+
+.search button{
+    width: 5.5%;
+    height: 60px;
+    border: .5px solid #D2D2D2;
+    background-color: white;
+    outline: none;
+    color: #9D46BA;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search button:hover{
+    background-color: #9D46BA;
+    color:white;
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+}
+
+.categorias ul{
+    display: flex;
+}
+
+.categorias ul li{
+    width: 90px;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.categorias a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+.categorias span{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.icon-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 15px;
+    height: 58px;
+    width: 58px;
+    border-radius: 60px;
+}
+
+.categorias a{
+    color: white;
+}
+
+.categorias span{
+    font-size: 12px;
+}
+
+#recommended-home{
+    background-color: white;
+}
+
+#recommended-home h1{
+    font-size: 20px;
+    color: #4A4A4A;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.anuncios{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.anuncio-item{
+    max-width: 215px;
+    color: #4A4A4A;
+}
+
+.anuncio-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.anuncio-title{
+    font-size: 14px;
+}
+
+.anuncio-price{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+section{
+    background-color: #f6f6f6;
+}
+
+.section-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: #4A4A4A;
+}
+
+.section-title div{
+    display: flex;
+    align-items: center;
+}
+
+.section-anuncie{
+    font-size: 16px;
+}
+
+.section-title span{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+#estado div.container-home{
+    background-color: #fff;
+}
+
+#estado .lista ul{
+    display: flex;
+    margin-bottom: 45px;
+}
+
+#estado .lista ul li{
+    list-style-type: none;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+#estado .lista a:hover{
+    text-decoration: underline;
+}
+
+#estado .lista,
+#estado .section-title{
+    margin-left: 5px;
+}
+
+#descubra a{
+    max-height: 175px;
+}
+
+#descubra a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#descubra .section-title{
+    margin-left: -15px;
+}
+
+.descubra-lista{
+    display: flex;
+    margin-bottom: 500px;    
+    
+}
+
+.descubra-lista::after{
+    content: "";
+    position: absolute;
+    min-width: 81.5%;
+    max-width: 1160px;
+    height: 50%;
+    border-radius: 5px;
+    z-index: 1;
+    background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 80%,rgba(0,0,0,.4));
+}
+
+.imagem{
+    border: .5px solid #c6c6c6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 12px;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 290px;
+    transition: transform 0.2s ease;
+    color: white;
+    font-size: 14px;
+}
+
+.imagem p{
+    z-index: 2;
+}
+
+.imagem:hover{
+    transform: scale(1.1);
+}
+
+.imagem1{
+    height: 395px;
+    border-radius: 5px 0px 0px 5px;
+    background-image: url('/assets/img/notebook.jpeg');
+}
+
+.imagem1 p:nth-child(2){
+    font-size: 20px;
+}
+
+.imagem-lista-1{
+    height: 215px;
+}
+
+.imagem-lista-2{
+    height: 180px;
+}
+
+.imagem-lista-1 p:nth-child(2){
+    font-size: 20px;
+}
+
+.imagem-lista-2 p:nth-child(2){
+    font-size: 20px;
+}
+
+.imagem2{
+    background-image: url('/assets/img/casa.png');
+}
+
+.imagem3{
+    background-image: url('/assets/img/celular.png');
+}
+
+.imagem4{
+    background-image: url('/assets/img/controle.png');
+}
+
+.imagem5{
+    background-image: url('/assets/img/ka.png');
+}
+
+.imagem6{
+    border-radius: 0px 5px 0px 0px;
+    background-image: url('/assets/img/chave.png');
+}
+
+.imagem7{
+    border-radius: 0px 0px 5px 0px;
+    background-image: url('/assets/img/olx-pay.png');
+}

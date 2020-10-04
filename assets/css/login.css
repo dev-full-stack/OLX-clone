@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+
+    section{
+        padding: 5px !important;
+    }
+
+    .not-account{
+        margin-bottom: 15px !important;
+    }
+
+    .logo{
+        margin-top: -40px !important;
+    }
+
+    label svg{
+        margin-left: 320px !important;
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+        label svg{
+            margin-left: 88% !important;
+        }
+}
+
+
+body{
+    background-color: #F9F9F9;
+    height: 750px;
+}
+
+section{
+    padding: 55px;
+    padding-top: 0;
+}
+
+main{
+    max-width: 470px;
+    box-shadow: rgba(153, 153, 153, 0.2) 0px 2px 4px 0px;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+.container{
+    max-width: 355px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .logo{
+    margin-top: 25px;
+    margin-bottom: -5px;
+}
+
+header p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #4A4A4A;
+}
+
+a{
+    color: #6E0AD6;
+    text-decoration: none;
+}
+
+.login_redes{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.login_redes a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #FFF;
+    height: 50px;
+    margin-top: 8px;
+    padding: 25px;
+    border-radius:40px;
+}
+
+.login_redes svg{
+    flex: .3;
+}
+
+.login_redes span{
+    flex: 3;
+    text-align: center;
+}
+
+.login_redes .facebook{
+    background-color: #3a5998;
+}
+
+.login_redes .facebook:hover{
+    background-color: #4E6AA3;
+}
+
+.login_redes .google{
+    background-color: #4285f4;
+}
+
+.login_redes .google:hover{
+    background-color: #5591F5;
+}
+
+.hr{
+    height: 1px;
+    width: 84%;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.hr span{
+    color: #898989;
+    background-color: #fff;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.login{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bold;
+}
+
+label a{
+    font-weight: normal;
+}
+
+label svg{
+    position: absolute;
+    margin-left: 325px;
+    margin-top: 15px;
+}
+
+.input{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+.input a{
+    font-size: 14px;
+}
+
+.input input{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px;
+    color: #4A4A4A;
+    font-size: 16px;
+}
+
+
+.btn input{
+    width: 100%;
+    height: 50px;
+    background-color: #f78323;
+    cursor: pointer;
+    border: none;
+    border-radius: 60px;
+    font-size: 16px; 
+    color: #FFF;
+    margin-top: -2px;
+}
+
+.btn input:hover{
+    background-color: #F99D53;
+}
+
+.not-account{
+    color: #4A4A4A;
+    font-size:16px;
+    margin-top: 55px;
+    margin-bottom: -30px;
+}
+
+footer p{
+    color: #999;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left:5px;
+}
+
+footer .container{
+    max-width: 470px;
+}
